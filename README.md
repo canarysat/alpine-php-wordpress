@@ -4,12 +4,12 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/canarysat/alpine-php-wordpress.svg?style=for-the-badge&logo=docker)](https://hub.docker.com/r/canarysat/alpine-php-wordpress/)
 [![Docker Stars](https://img.shields.io/docker/stars/canarysat/alpine-php-wordpress.svg?style=for-the-badge&logo=docker)](https://hub.docker.com/r/canarysat/alpine-php-wordpress/)
 
-[![Alpine Version](https://img.shields.io/badge/Alpine%20version-v3.11.6-green.svg?style=for-the-badge)](http://alpinelinux.org/)
+[![Alpine Version](https://img.shields.io/badge/Alpine%20version-v3.12.0-green.svg?style=for-the-badge)](http://alpinelinux.org/)
 [![Wordpress Version](https://img.shields.io/badge/Wordpress%20version-vlatest-green.svg?style=for-the-badge)](https://www.wordpress.org/en/)
 
 
 
-This Docker image [(yobasystems/alpine-php-wordpress)](https://hub.docker.com/r/canarysat/alpine-php-wordpress/) is based on the minimal [Alpine Linux](http://alpinelinux.org/) ready for running [WordPress](https://www.wordpress.org/). (Requires external database)
+This Docker image [(canarysat/alpine-php-wordpress)](https://hub.docker.com/r/canarysat/alpine-php-wordpress/) is based on the minimal [Alpine Linux](http://alpinelinux.org/) ready for running [WordPress](https://www.wordpress.org/). (Requires external database)
 
 ##### Alpine Version 3.12.0 (Released May 31, 2020)
 ##### Wordpress Version latest
