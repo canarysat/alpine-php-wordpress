@@ -45,7 +45,7 @@ WordPress is an online, open source website creation tool written in PHP. But in
 ## Layers & Sizes
 
 ![Version](https://img.shields.io/badge/version-amd64-blue.svg?style=for-the-badge)
-![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/canarysat/alpine-php-wordpress?style=for-the-badge)
+[![Docker Pulls](https://img.shields.io/docker/pulls/canarysat/alpine-php-wordpress.svg?style=for-the-badge&logo=docker)](https://hub.docker.com/r/canarysat/alpine-php-wordpress/)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/canarysat/alpine-php-wordpress/latest?style=for-the-badge)
 
 
