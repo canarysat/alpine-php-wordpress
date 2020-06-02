@@ -5,7 +5,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/canarysat/alpine-php-wordpress.svg?style=for-the-badge&logo=docker)](https://hub.docker.com/r/canarysat/alpine-php-wordpress/)
 
 [![Alpine Version](https://img.shields.io/badge/Alpine%20version-v3.12.0-green.svg?style=for-the-badge)](http://alpinelinux.org/)
-[![Wordpress Version](https://img.shields.io/badge/Wordpress%20version-vlatest-green.svg?style=for-the-badge)](https://www.wordpress.org/en/)
+[![Wordpress Version](https://img.shields.io/badge/Wordpress%20version-latest-green.svg?style=for-the-badge)](https://www.wordpress.org/en/)
 
 
 
