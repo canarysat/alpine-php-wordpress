@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+  alpine-php-wordpress:
+    image: 'canarysat/alpine-php-wordpress'
+    network_mode: bridge
+    container_name: 'alpine-php-wordpress'
+    restart: always
+
+    ports:
+      - 8080:80/tcp
+
+    volumes:
+      - '$PWD/html:/usr/html'
+      - '$PWD/logs/named:/var/log/named'
+
+    links:
+      - mysql:mysql
+
+mysql:
+  environment:
+    MYSQL_DATABASE: wordpressdb
+    MYSQL_PASSWORD: wordpresspass
+    MYSQL_ROOT_PASSWORD: 'YOUR-ROOT-MYSQL-PASSWORD'
+    MYSQL_USER: wordpressuser
+  image: canarysat/alpine-mariadb:latest
+  network_mode: bridge
+  container_name: 'alpine-mariadb'
+  restart: always
